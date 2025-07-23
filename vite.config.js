@@ -13,7 +13,7 @@ export default defineConfig(({ command, mode, isSsrBuild, isPreview }) => {
 
   if (command === 'serve') {
   } else {
-    return_val.base = '/locoButton/'
+    return_val.base = '/locoButton2/'
   }
   return return_val
 })
